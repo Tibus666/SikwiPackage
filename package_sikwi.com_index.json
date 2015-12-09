@@ -18,8 +18,8 @@
             "online": "http://www.sikwi.com/help/boards"
           },
           "url": "https://www.github.com/myboard/myboard-1.0.0.zip",
-          "archiveFileName": "myboard-1.0.0.zip",
-          "checksum": "SHA-256:ec3ff8a1dc96d3ba6f432b9b837a35fd4174a34b3d2927de1d51010e8b94f9f1",
+          "archiveFileName": "boards.zip",
+          "checksum": "SHA-256:16ecc211b4e4871cf8b2b32136bbe9bda09e722f15dbfb1800b9d70ad22f87df",
           "size": "15005",
           "boards": [
             {"name": "Sikwi Mini"},
