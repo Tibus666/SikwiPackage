@@ -1,0 +1,2 @@
+name=Sikwi Boards
+version=1.0.0
