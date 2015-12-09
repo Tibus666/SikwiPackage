@@ -17,7 +17,7 @@
           "help": {
             "online": "http://www.sikwi.com/help/boards"
           },
-          "url": "https://www.github.com/myboard/myboard-1.0.0.zip",
+          "url": "https://github.com/Tibus666/arduinoSikwiPackage/blob/master/boards/boards.zip?raw=true",
           "archiveFileName": "boards.zip",
           "checksum": "SHA-256:16ecc211b4e4871cf8b2b32136bbe9bda09e722f15dbfb1800b9d70ad22f87df",
           "size": "15005",
