@@ -1,2 +1,6 @@
 name=Sikwi Boards
 version=1.0.0
+
+tools.avrdude.path={runtime.tools.avrdude.path}
+tools.avrdude.cmd.path={path}/bin/avrdude
+tools.avrdude.config.path={runtime.platform.path}/avrdude.conf
