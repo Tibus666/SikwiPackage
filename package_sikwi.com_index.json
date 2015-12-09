@@ -19,8 +19,8 @@
           },
           "url": "https://github.com/Tibus666/arduinoSikwiPackage/blob/master/boards.zip?raw=true",
           "archiveFileName": "boards.zip",
-          "checksum": "SHA-256:96d01cebe96c013b2aa831d122cfd69fd16c60fccb4e4a99af1e08f343e0efe6",
-          "size": "1287",
+          "checksum": "SHA-256:230393af518da5c8290e78bce711bff672b1a3e1125fd0d6859b8e8f5d905cdb",
+          "size": "692",
           "boards": [
             {"name": "Sikwi Mini"},
             {"name": "Sikwi One"}
