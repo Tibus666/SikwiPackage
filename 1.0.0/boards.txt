@@ -2,22 +2,13 @@
 
 sikwiOne.name=Sikwi One
 
-sikwiOne.vid.0=0x2341
-sikwiOne.pid.0=0x0043
-sikwiOne.vid.1=0x2341
-sikwiOne.pid.1=0x0001
-sikwiOne.vid.2=0x2A03
-sikwiOne.pid.2=0x0043
-
-sikwiOne.vid.0x2A03.warning=Uncertified
-
-sikwiOne.upload.tool=avrdude
+sikwiOne.upload.tool=arduino:avrdude
 sikwiOne.upload.protocol=arduino
 sikwiOne.upload.maximum_size=31744
 sikwiOne.upload.maximum_data_size=2048
 sikwiOne.upload.speed=115200
 
-sikwiOne.bootloader.tool=avrdude
+sikwiOne.bootloader.tool=arduino:avrdude
 sikwiOne.bootloader.low_fuses=0xFF
 sikwiOne.bootloader.high_fuses=0xDC
 sikwiOne.bootloader.extended_fuses=0x05
@@ -28,30 +19,27 @@ sikwiOne.bootloader.file=sikwi/optiboot_atmega328_16Mhz.hex
 sikwiOne.build.mcu=atmega328p
 sikwiOne.build.f_cpu=16000000L
 sikwiOne.build.board=AVR_UNO
-sikwiOne.build.core=arduino
+sikwiOne.build.core=arduino:arduino
 sikwiOne.build.variant=standard
 
 ##############################################################
 SikwiMini.name=Sikwi Mini
 
+SikwiMini.upload.tool=arduino:avrdude
 SikwiMini.upload.protocol=arduino
 SikwiMini.upload.maximum_size=31744
 SikwiMini.upload.maximum_data_size=2048
 SikwiMini.upload.speed=57600
 
 SikwiMini.bootloader.tool=arduino:avrdude
-
-SikwiMini.upload.tool=avrdude
-
 SikwiMini.bootloader.low_fuses=0xFF
 SikwiMini.bootloader.high_fuses=0xDC
 SikwiMini.bootloader.extended_fuses=0x06
-
 SikwiMini.bootloader.file=sikwi/sikwi_atmega328_8Mhz.hex
 SikwiMini.bootloader.unlock_bits=0x3F
 SikwiMini.bootloader.lock_bits=0x2F
 
 SikwiMini.build.mcu=atmega328p
 SikwiMini.build.f_cpu=8000000L
-SikwiMini.build.core=arduino
+SikwiMini.build.core=arduino:arduino
 SikwiMini.build.variant=standard
